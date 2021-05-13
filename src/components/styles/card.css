@@ -1,0 +1,42 @@
+.container-search-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-search-box-item{
+    flex-direction: column;
+}
+.search-box{
+text-align: center;
+}
+
+.search-box input{
+    width: 80%;
+}
+
+.search-box button{
+    width: 30%;
+}
+
+.button-buy{
+    margin-top: 1rem;
+    width: 10%;
+}
+.Gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Gallery-item{
+    flex-direction: row;
+}
+
+@media(min-width:600px){    
+.Gallery-item img{
+    max-width: 80%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+}
