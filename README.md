@@ -1,4 +1,3 @@
-"# react-app" 
 ### FEATURES
 - This project is a simulation of a shop made with React 
 - This is my main web page 
