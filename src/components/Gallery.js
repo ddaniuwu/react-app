@@ -10,19 +10,19 @@ class Gallery extends React.Component{
                 <div className="Gallery">
                 <div className="Gallery-item">
                     <figure>
-            <img src={item1} />
+            <img src={item1} alt="item1 from page 1" />
             <p>First item</p>
                     </figure>
                     <button>Buy me!</button>
                 </div>
-                <div className="Gallery-item">
+                <div className="Gallery-item" alt="item1 from page 2">
                     <figure>
             <img src={item1} />
             <p>Second item</p>
                     </figure>
                     <button>Buy me!</button>
                 </div>
-                <div className="Gallery-item">
+                <div className="Gallery-item" alt="item1 from page 3">
                 <figure>
             <img src={item1}></img>
             <p>Third item</p>

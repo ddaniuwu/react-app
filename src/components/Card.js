@@ -19,8 +19,9 @@ class Card extends React.Component{
        
         return(
             <section>
+                <h1>Welcome to my Phone Store</h1>
             <div className="container-search-box">
-                <form className="search-box" onChange={this.handleChange}>
+                <form className="search-box" >
                     <div className="container-search-box-item">
                     <label>What are you looking for?</label>
                     </div>
@@ -28,7 +29,7 @@ class Card extends React.Component{
                     <input 
                     type="text" 
                     name="search"
-                    handleChange={this.handleChange}
+                    onChange={this.handleChange}
                     >
                     </input>
                     </div>

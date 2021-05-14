@@ -6,17 +6,17 @@ class Banner extends React.Component{
         return(
             
             <div className="Banner">
-                <div className="Banner-item">
-                <figure>
-                    <img src={img1} alt="Item de banner principal"/>
-                </figure>
-                </div>
-                <div className="Banner-item">
+                <div className="Banner-item" alt="First item banner">
                 <figure>
                     <img src={img1}/>
                 </figure>
                 </div>
-                <div className="Banner-item">
+                <div className="Banner-item" alt ="Second banner item">
+                <figure>
+                    <img src={img1}/>
+                </figure>
+                </div>
+                <div className="Banner-item"  alt="third banner item">
                 <figure>
                     <img src={img1}/>
                 </figure>
